@@ -18,7 +18,6 @@ function renderNavbar(activePage) {
     { key:'home',      href: root + 'index.html',           label:'Home' },
     { key:'about',     href: root + 'pages/about.html',     label:'About' },
     { key:'services',  href: root + 'pages/services.html',  label:'Services' },
-    { key:'courses',   href: root + 'pages/courses.html',   label:'Courses' },
     { key:'portfolio', href: root + 'pages/portfolio.html', label:'Portfolio' },
     { key:'tools',     href: root + 'pages/tools.html',     label:'Tools' },
     { key:'contact',   href: root + 'pages/contact.html',   label:'Contact' },
@@ -28,7 +27,6 @@ function renderNavbar(activePage) {
     links[0].href = '../index.html';
     links[1].href = 'about.html';
     links[2].href = 'services.html';
-    links[3].href = 'courses.html';
     links[4].href = 'portfolio.html';
     links[5].href = 'tools.html';
     links[6].href = 'contact.html';
@@ -132,7 +130,6 @@ function renderFooter() {
         <ul>
           <li><a href="${p}about.html">About</a></li>
           <li><a href="${p}services.html">Services</a></li>
-          <li><a href="${p}courses.html">Courses</a></li>
           <li><a href="${p}portfolio.html">Portfolio</a></li>
           <li><a href="${p}tools.html">Tools & Resources</a></li>
           <li><a href="${p}contact.html">Contact</a></li>
