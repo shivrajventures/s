@@ -60,8 +60,8 @@ function renderNavbar(activePage) {
 <div class="navbar__mobile" id="mobileNav">
   ${mobileLinks}
   <hr>
-  <a href="https://wa.me/918808913837" target="_blank" rel="noopener" class="btn btn-outline">💬 WhatsApp</a>
-  <a href="${contactHref}" class="btn btn-primary">Get a Quote</a>
+  <a href="https://wa.me/918808913837" target="_blank" rel="noopener" class="btn btn-primary">💬 WhatsApp</a>
+  <a href="${contactHref}" class="btn btn-outline">Get a Quote</a>
 </div>`;
 
   const ph = document.getElementById('navbar-placeholder');
