@@ -5,7 +5,7 @@
 
 /* Brand logo (SVG image) */
 .brand-logo{display:flex;align-items:center;flex-shrink:0;text-decoration:none}
-.brand-logo img{display:block;height:52px;width:auto;object-fit:contain}
+.brand-logo img{display:block;height:58px;width:auto;object-fit:contain}
 .brand-logo__text{font-family:var(--font-head);font-weight:800;font-size:1.15rem;letter-spacing:-.5px;line-height:1}
 .brand-logo__text .s{color:var(--primary)}
 .brand-logo__text .rest{color:var(--text)}
