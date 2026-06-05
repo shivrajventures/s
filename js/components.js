@@ -49,8 +49,8 @@ function renderNavbar(activePage) {
     <a href="${logoHref}" class="brand-logo">${brandLogoHTML(false)}</a>
     <div class="navbar__links">${desktopLinks}</div>
     <div class="navbar__actions">
-      <a href="https://wa.me/918808913837" target="_blank" rel="noopener" class="btn btn-primary btn-sm">💬 WhatsApp</a>
-      <a href="${contactHref}" class="btn btn-outline btn-sm">Get a Quote</a>
+      <a href="https://wa.me/918808913837" target="_blank" rel="noopener" class="btn btn-outline btn-sm">💬 WhatsApp</a>
+      <a href="${contactHref}" class="btn btn-primary btn-sm">Get a Quote</a>
     </div>
     <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
