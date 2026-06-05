@@ -5,7 +5,7 @@
 // ===== BRAND LOGO HTML (uses real SVG logo) =====
 function brandLogoHTML(isFooter) {
   const size = isFooter ? '110' : '100';
-  return `<img src="${window.__rootPath || ''}assets/logo.svg" alt="Shivraj Ventures" height="${size}" style="display:block;height:${isFooter ? '42px' : '52px'};width:auto;" loading="lazy">`;
+  return `<img src="${window.__rootPath || ''}assets/logo.svg" alt="Shivraj Ventures" height="${size}" style="display:block;height:${isFooter ? '48px' : '52px'};width:auto;" loading="lazy">`;
 }
 
 // ===== NAVBAR =====
